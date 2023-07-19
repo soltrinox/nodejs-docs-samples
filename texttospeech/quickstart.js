@@ -26,7 +26,8 @@ function main() {
   const client = new textToSpeech.TextToSpeechClient();
   async function quickStart() {
     // The text to synthesize
-    const text = 'hello, world!';
+    const text =
+      'This is a test of the TTS.  This product sells for $15.99 , and comes in colors blue, green, and black. Sizes Men & Women one size fits all.';
 
     // Construct the request
     const request = {
